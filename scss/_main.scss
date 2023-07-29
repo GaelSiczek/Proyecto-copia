@@ -3,12 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
 @import"mixins.scss";
 
-main{
+.index{
+    width: 100%;
     .imgsckdiv{
-        width: map-get($width-heigth , width-img );
+        width: 100%;
         height: map-get($width-heigth,heigth-img);
         .imgsck{
-            width: map-get($width-heigth , width-img );
+            width:100%;
             height: map-get($width-heigth,heigth-img);
         }
     }
@@ -35,30 +36,29 @@ main{
     }
 
 @media screen and (min-width:0px) and (max-width: 768px){
-    
+    main{
         .imgsckdiv{
             padding: 30%, 30%, 30%, 30%;
-            .imgsck{
-            width: $margin;
-            align-items: center;
+                .imgsck{
+                width: 0px;
+                align-items: center;
+            }
         }
-    }
 
-    .productosdestacados{
-        @include display-flex-ropa(wrap, column, space-evenly);
-    }
+        .productosdestacados{
+            @include display-flex-ropa(wrap, column, space-evenly);
+        }
 
-    .ofertasropa{
-        @include display-flex-ropa(wrap, column, space-evenly);
-    }
-    .ropa{
-        margin-bottom: 1px ;
-        width: 300px;
-    }
+        .ofertasropa{
+            @include display-flex-ropa(wrap, column, space-evenly);
+        }
+        .ropa{
+            margin-bottom: 1px ;
+            width: 300px;
+        }
+        .ropa:hover{
+            width: 300px;
+        }
 
-    .ropa:hover{
-        width: 350px;
-        height: 450px;
     }
-    
 }
