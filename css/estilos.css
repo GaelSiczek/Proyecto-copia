@@ -27,7 +27,7 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(102, 102, 102);
 }
 
 main {
@@ -307,7 +307,6 @@ footer .mediosdepago {
   margin: 0%;
 }
 .mainsobrenosotros .sobrenosotros .informacion {
-  gap: 10px;
   margin-bottom: 0%;
   list-style: none;
   color: rgb(255, 255, 255);
@@ -366,7 +365,7 @@ footer .mediosdepago {
   margin-bottom: 0%;
 }
 .mainproductos .productospantalones .pantalones {
-  height: 470px;
+  height: 480px;
   width: 400px;
   text-align: center;
   margin-bottom: 50px;

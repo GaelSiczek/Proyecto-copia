@@ -8,6 +8,7 @@
     <meta name="keywords" content="">
     <link rel="shortcut icon" href="favicon.ico.jpg">
     <title>Tienda De Ropa | Sck</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">    
 <body class="mg-0 pd-0">
@@ -46,32 +47,35 @@
         </div>
     </header>
     <main class="container-fluid">
-        <h1>ScK</h1>  
+        <div data-aos="fade-up"
+        data-aos-duration="2000">
+            <h1>ScK</h1>  
             <div class="imgsckdiv container">
                 <a href="index.html"><img class="imgsck" src="assets/img/Sck.jpg" alt="sck" class="imagen 1"></a>
             </div>
+        </div>
             <section>
                 <H2 class="subtitulo">Destacados</H2>
-                <div class="productosdestacados">
-                    <div class="ropa">                                   
+                <div class=" productosdestacados">
+                    <div data-aos="fade-right" class="ropa">                                   
                         <img class="imagenropa" src="assets/img/jacket carhartt.jpg" width="250" alt="BUZO BILLABONG CORE HOOD" title="BUZO BILLABONG CORE HOOD"> 
                         <h3>BUZO BILLABONG BOY BLUE CORE HOOD</h3>
                         <p>$ 30.000</p>
                         <Button type="button"> <a href="" class="bottoncomprar">Comprar</a></Button>
                     </div>
-                    <div class="ropa">                                         
+                    <div data-aos="zoom-in"  class="ropa">                                         
                         <img class="imagenropa" src="assets/img/buzo billa.jpg" width="250" alt="BUZO QUIKSILVER NEON SLAB NEGRO" title="BUZO QUIKSILVER NEON SLAB NEGRO">
                         <h3>BUZO QUIKSILVER NEON SLAB NEGRO</h3>
                         <p>$ 18.000</p>
                         <Button type="button"><a href="" class="bottoncomprar">Comprar</a></Button>
                     </div>
-                    <div class="ropa">                    
+                    <div data-aos="fade-left" class="ropa">                    
                         <img class="imagenropa" src="assets/img/buzo billa2.jpg" width="250" alt="BUZO BILLABONG ROCKAWAY HOOD" title="BUZO BILLABONG ROCKAWAY HOOD"> 
                         <h3>BUZO BILLABONG ROCKAWAY HOOD</h3>
                         <p>$ 20.500</p>
                         <Button type="button"><a href="" class="bottoncomprar">Comprar</a></Button>
                     </div>
-                    <div class="ropa">                    
+                    <div data-aos="zoom-in"  class="ropa">                    
                         <img class="imagenropa" src="assets/img/remera-thrasher-flame-boys-blanco-indy.webp" width="250" alt="Remera Trasher Flame Boys Blanco" title="Remera Trasher Flame Boys Blanco"> 
                         <h3>Remera Trasher Flame Boys Blanco</h3>
                         <p>$ 9.000</p>
@@ -82,28 +86,28 @@
             <section>
             <h2 class="subtitulo">Ofertas</h2>
             <div class="ofertasropa">
-                <div class="ropa">
+                <div data-aos="fade-right" class="ropa">
                     <img class="imagenropa" src="assets/img/oferta 3.webp" alt="Remera Thrasher Skategoat Negro">
                     <h3>Remera Thrasher Skategoat</h3>
                     <p>$ 1̶0̶.̶0̶0̶0̶
                     $ 7.000</p>
                     <button type="button"><a href="" class="bottoncomprar">Comprar</a></button>
                 </div>
-                <div class="ropa">
+                <div data-aos="zoom-in" class="ropa">
                     <img class="imagenropa" src="assets/img/oferta 2.webp" alt="Remera Flying V Oversized" title="Remera Flying V Oversized">
                     <h3>Remera Flying V Oversized</h3>
                     <p>$ 1̶0̶.̶0̶0̶0̶
                     $ 7.000</p>
                     <button type="button"><a href="" class="bottoncomprar">Comprar</a></button><br>
                 </div>
-                <div class="ropa">
+                <div data-aos="fade-left" class="ropa">
                     <img class="imagenropa" src="assets/img/oferta 1.webp" alt="Buzo Dc Star Boys Negro 10" title="Buzo Dc Star Boys Negro 10">
                     <h3>Buzo Dc Star Boys Negro 10</h3>
                     <p>$ 2̶0̶0̶0̶0̶
                     $ 15.000</p>
                     <button type="button"><a href="" class="bottoncomprar">Comprar</a></button> 
                 </div>
-                <div class="ropa">
+                <div data-aos="zoom-in" class="ropa">
                     <img class="imagenropa" src="assets/img/oferta 4.webp" alt="Buzo Quiksilver Azul Marino" title="Buzo Quiksilver Primary Colors Boys Azul Marino"> 
                     <h3>Buzo Quiksilver Azul Marino </h3>
                     <p>$ 1̶8̶.̶0̶0̶0̶
@@ -135,5 +139,7 @@
         </div> 
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
