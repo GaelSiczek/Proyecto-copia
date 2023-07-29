@@ -3,21 +3,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
 @import"mixins.scss";
 
-.index{
-    width: 100%;
+main{
     .imgsckdiv{
         width: 100%;
-        height: map-get($width-heigth,heigth-img);
+        height: 100%;
         .imgsck{
             width:100%;
-            height: map-get($width-heigth,heigth-img);
+            height: 100%;
         }
     }
         .productosdestacados{
-            @include display-flex-ropa(wrap, row, space-evenly);
+            padding: 50px;
+            display: flex;
+            flex-wrap: wrap ;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
         }
         .ofertasropa{
-            @include display-flex-ropa(wrap, row, space-evenly);
+            padding: 50px;
+            display: flex;
+            flex-wrap: wrap ;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
         }
         .ropa{
             width: 350px;

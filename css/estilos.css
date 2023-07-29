@@ -176,42 +176,37 @@ header div ul .linknav .linknav:hover {
   }
 }
 /*lo use en el main*/
-.index {
-  width: 100%;
-}
-.index .imgsckdiv {
+main .imgsckdiv {
   width: 100%;
   height: 100%;
 }
-.index .imgsckdiv .imgsck {
+main .imgsckdiv .imgsck {
   width: 100%;
   height: 100%;
 }
-.index .productosdestacados {
+main .productosdestacados {
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
 }
-.index .ofertasropa {
+main .ofertasropa {
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
 }
-.index .ropa {
+main .ropa {
   width: 350px;
   text-align: center;
   margin-bottom: 50px;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
 }
-.index .ropa:hover {
+main .ropa:hover {
   height: 450px;
   width: 400px;
   transition: 1s ease;
