@@ -16,12 +16,13 @@
         text-align: center;
         margin-bottom: 50px;
         box-shadow:$bordessombreados;
+        transition: 1s ease;
     }
     .productosropa:hover{
         width: 400px;
         height: 450px;
         box-shadow:$bordessombreados;
-        transition: 1s;
+        transition: 1s ease;
         cursor: pointer;
     }
     .remeras{
@@ -35,7 +36,7 @@
         padding: 30px;
         margin: 20px;
         display: $displayflex;
-        flex-wrap: map-get($flex, wrap );
+        flex-wrap: map-get($flex, nowrap );
         flex-direction:map-get($flex,row );
         justify-content:$justify-content;
         margin-bottom:$margin;
@@ -49,8 +50,8 @@
         }
     }
     .pantalones:hover{
-        height: 550px;
-        width: 500px;
+        height: 500px;
+        width: 450px;
         box-shadow: $bordessombreados;
         transition: 1s;
         cursor: pointer;
