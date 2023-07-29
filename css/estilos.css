@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat&family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap");
@@ -93,7 +94,7 @@ p {
   margin-top: 100px;
   margin-bottom: 50px;
   font-size: 60px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "ABeeZee", sans-serif;
   color: rgb(119, 125, 131);
   text-align: center;
 }
@@ -307,7 +308,6 @@ footer .mediosdepago {
   margin: 0%;
 }
 .mainsobrenosotros .sobrenosotros .informacion {
-  margin-bottom: 0%;
   list-style: none;
   color: rgb(255, 255, 255);
   padding-bottom: 30px;
