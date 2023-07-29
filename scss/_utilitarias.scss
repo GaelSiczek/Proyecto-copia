@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
+
+main{
+    background-color: rgb(146, 145, 145);
+    background-image: url(../assets/img/wallpaperbetter.com_3840x2160.jpg);
+    background-size: contain;
+    width: 100%;
+}
+
+main section h2{
+    color: $color-primario;
+    text-align: center;
+}
+
+main section h3{
+    color: $color-primario;
+}
+.col-md-6 .col-md-3{
+    margin: $margin;
+}
+
+.imagenropa{
+    margin-top: 30px;
+}
+
+.bottoncomprar{
+    margin: 15px;
+    border-radius: 50px;
+}
+
+.row{
+    width: 100%;
+}
+
+
+h1{
+    font-size: 100px;
+    color: $color-primario;
+    font-family: 'Montserrat'sans-serif;
+    text-align: center; 
+    text-shadow: 3px 5px 5px rgb(0, 0, 0); 
+    padding: 50px;
+}
+
+
+h3{
+    font-family: 'Cinzel', serif;
+    color: $color-primario;
+    font-size: 15px;
+    padding: 10px;
+}
+
+main img{
+    width: 250px;
+}
+p{
+    color:$color-letras;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+}
+
+.subtitulo{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(119, 125, 131);
+    text-align: center;
+}
+
+.section2{
+    margin-bottom: 100px;
+}
+a{
+    text-decoration: none;
+    color:$color-secundario;
+}
+a:hover{
+    color:rgb(0, 0, 0)
+    /*esto lo hice para que cada vez que pase por arriba de un ancla se cambie de color*/
+}
+main section ul li{
+    margin: 0%;
+    color: $color-primario;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media screen and (min-width:0px) and (max-width: 768px){
+
+    h4{
+    color: $color-letras;
+    }
+
+    h1{
+        padding-bottom: 1px;
+        margin-bottom: 10px;
+        font-size: 50px;
+    }
+
+    .subtitulo{
+        margin-bottom: 10px;
+        font-size: 40px;
+        color: $color-letras;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,26 @@
+$color-primario:rgb(255, 255, 255);
+$color-secundario: rgb(80, 80, 80);
+$color-letras:rgb(200, 200, 200);
+$bordessombreados:0px 15px 25px rgba(0, 0, 0, 0.50);
+$displayflex:flex;
+$justify-content: space-evenly;
+$align-items: center;
+$margin: 0%;
+
+/*maps*/
+
+$flex:(
+    flex: flex,
+    row: row,
+    space-evenly: space-evenly,
+    center: center,
+    nowrap: nowrap,
+    wrap: wrap,
+);
+
+$width-heigth:(
+    heigth-pantalones: 500px,
+    heigth-ropa: 450px,
+    width-ropa: 350px,
+    width-pantalones: 400px,
+);

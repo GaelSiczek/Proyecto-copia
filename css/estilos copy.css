@@ -1,0 +1,525 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
+
+*{
+padding: 0;
+
+margin: 0;
+
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(124, 124, 124);
+}
+header{
+    background-image: url(../assets/img/55415hd.jpg);
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header div ul .linknav{
+    color: rgb(87, 82, 82);
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0.1rem;
+
+}
+.linknav:hover{
+color:rgb(160, 160, 160);
+}
+
+    .col-md-6 .col-md-3{
+    margin: 0%;
+}
+.productosbuzos{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagenropa{
+    margin-top: 30px;
+}
+.productosropa{
+    width: 350px;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+}
+.productosropa:hover{
+    width: 400px;
+    height: 450px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.productosdestacados{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.productospantalones{
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.ofertasropa{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
+.remeras{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.ropa{
+    width: 350px;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+}
+
+.ropa:hover{
+    height: 450px;
+    width: 400px;
+    transition: 1s ease;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+.pantalones{
+    height: 500px;
+    width: 400;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    transition: 1s ease;
+}
+.pantalones:hover{
+    height: 550px;
+    width: 500px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.bottoncomprar{
+    margin: 15px;
+    border-radius: 50px;
+}
+
+.row{
+    width: 100%;
+}
+main{
+    background-color: rgb(146, 145, 145);
+    background-image: url(../assets/img/wallpaperbetter.com_3840x2160.jpg);
+    background-size: contain;
+    width: 100%;
+    /*en el background le puse una imagen para que quede mejor y lo puse en contain para contener la imagen y que sea visible*/
+}
+
+h1{
+/*Aca le puse un color a todos los h1 o titulos, una fuente y un sombreado, tambien los centre*/
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat'sans-serif;
+    text-align: center; 
+    text-shadow: 3px 5px 5px rgb(0, 0, 0); 
+    padding: 50px;
+}
+
+
+h3{
+    font-family: 'Cinzel', serif;
+    color: bisque;
+    font-size: 15px;
+    padding: 10px;
+}
+
+h4{
+    color:blanchedalmond;
+    font-size: 20px;
+}
+
+main section h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+main section h3{
+    color:rgb(255, 255, 255)
+}
+
+main img{
+    width: 250px;
+}
+footer{
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+p{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+}
+
+.subtitulo{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.section2{
+    margin-bottom: 100px;
+}
+.contactop{
+    text-decoration: none;
+    color: rgb(78, 78, 73);
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.input{
+    width: 200px;
+    height: 50px;
+}
+
+.input2{
+    width:300px;
+    height: 90px;
+}
+
+.buttoncontacto{
+    background-color: gray;
+    width: 100px; 
+    border-radius: 15px;
+    align-items: center; 
+}
+
+.imgsckdiv{
+    width: 100%;
+    height: 100%;
+}
+
+.imgsck{
+    height: 100%;
+    width: 100%;
+}
+
+.subtitulo{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(119, 125, 131);
+    text-align: center;
+}
+.icono{
+    margin: 0px;
+    background-image: url(wallpaperbetter.com_3840x2160.jpg);
+}
+
+label{
+    color: beige;
+}
+a{
+    text-decoration: none;
+    color:rgb(78, 78, 73);
+}
+
+main section ul li{
+    margin: 1%;
+    color: rgb(207, 207, 207);
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:hover{
+    color:rgb(243, 243, 245)
+    /*esto lo hice para que cada vez que pase por arriba de un ancla se cambie de color*/
+}
+.locales{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+.informacion{
+    list-style: none;
+    color: blanchedalmond;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+.mapas{
+text-align: center;
+margin-bottom: 50px;
+}
+.contacto12{
+    font-size: 25px;
+    text-align: center;
+}
+
+.buscar{
+    margin-top: 80px;
+}
+
+.Busqueda{
+    margin: 30px;
+    width: 200px;
+    height:30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.iconobuscar{
+    width: 20px;
+}
+
+.bottoncomprar:hover{
+    color: black;
+}
+
+.FormContacto{
+    text-align: center;
+}
+.contactofooter{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.redessociales{
+    margin-top: 10px;
+    margin-right: 8%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mediosdepago{
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+@media screen and (min-width:0px) and (max-width: 768px){
+    
+    .imgsck{
+        width: 0px;
+        align-items: center;
+    }
+
+    .imgsckdiv{
+        padding: 30%, 30%, 30%, 30%;
+    }
+
+    header nav ul{
+        margin-top: 1px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul li:hover{
+        color: beige;
+    }
+
+    .icono{
+        margin-bottom: 10px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .iconodiv{
+        margin-bottom: 1px;
+        text-align: center;
+        width: 300px;
+    }
+
+    .col-sm-12{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .row{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .buscar{
+        margin-top: 5px;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .productosdestacados{
+        padding: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .ofertasropa{
+        padding: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .buscar{
+        justify-content: center;
+        width: 350px;
+        margin-bottom: 40px;
+    }
+
+    .contactofooter{
+        margin-bottom: 50px;
+    }
+
+
+    .redessociales{
+        margin-bottom: 50px;
+    }
+
+    h4{
+    color: rgb(255, 255, 255);
+    }
+
+    .mediosdepago{
+        margin-bottom: 50px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .productospantalones{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pantalones{
+        width: 300px
+    }
+
+    .pantalones:hover{
+        width: 350px;
+        transition: 1s ease;
+    }
+
+    h1{
+        padding-bottom: 1px;
+        margin-bottom: 10px;
+        font-size: 50px;
+    }
+
+    .subtitulo{
+        margin-bottom: 10px;
+        font-size: 40px;
+        color: rgb(212, 212, 212);
+    }
+
+    .productosropa{
+        margin-bottom: 1px ;
+        width: 300px;
+    }
+
+    .productosbuzos{
+        padding: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .productosropa:hover{
+        width: 350px;
+        height: 450px;
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+        cursor: pointer;
+    }
+
+    .ropa{
+        margin-bottom: 1px ;
+        width: 300px;
+    }
+
+    .ropa:hover{
+        width: 350px;
+        height: 450px;
+    }
+    .locales{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactofooter{
+        margin-top: 20px;
+    }
+    .hcontacto{
+        margin-bottom: 5px;
+    }
+    .contacto12{
+        font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .contactop{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        color: rgb(137, 138, 139);
+    }
+    .subtitulo{
+        margin-top: 10px;
+    }
+    .informacion li{
+        font-size: 1rem;
+    }
+    .sobrenosotros ul{
+        width: 90%;
+    }
+}
+
+
+

@@ -1,0 +1,65 @@
+footer{
+    margin-top: 0%;
+    background-color:rgb(102, 102, 102);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h4{
+        color:$color-letras;
+        font-size: 20px;
+    }
+    .contactofooter{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .redessociales{
+        margin-top: 10px;
+        margin-right: 8%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .mediosdepago{
+        text-align: center;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:0px) and (max-width: 768px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        .contactofooter{
+            margin-bottom: 50px;
+        }
+    
+        .redessociales{
+            margin-bottom: 50px;
+        }
+    
+        .mediosdepago{
+            margin-bottom: 50px;
+            padding: 10px 10px 10px 10px;
+        }
+        .col-sm-12{
+            width: 100%;
+            margin:$margin;
+            padding: $margin;
+        }
+    
+        .row{
+            width: 100%;
+            margin: $margin;
+            padding: $margin;
+        }
+    }
+
+}

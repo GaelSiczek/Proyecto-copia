@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
+
+.mainproductos{
+    .productosbuzos{
+        padding: 50px;
+        display: $displayflex;
+        flex-wrap: map-get($flex, wrap );
+        flex-direction: row-reverse;
+        justify-content: $justify-content;
+        align-items: $align-items;
+    }
+    .productosropa{
+        width: map-get($width-heigth, width-ropa );
+        text-align: center;
+        margin-bottom: 50px;
+        box-shadow:$bordessombreados;
+    }
+    .productosropa:hover{
+        width: 400px;
+        height: 450px;
+        box-shadow:$bordessombreados;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .remeras{
+        padding: 50px;
+        display: $displayflex;
+        flex-wrap: map-get($flex, wrap );
+        flex-direction: row-reverse;
+        justify-content:$justify-content;
+    }
+    .productospantalones{
+        padding: 30px;
+        margin: 20px;
+        display: $displayflex;
+        flex-wrap: map-get($flex, wrap );
+        flex-direction:map-get($flex,row );
+        justify-content:$justify-content;
+        margin-bottom:$margin;
+        .pantalones{
+            height:map-get($width-heigth, heigth-pantalones );
+            width: map-get($width-heigth, width-pantalones );
+            text-align: center;
+            margin-bottom: 50px;
+            box-shadow: $bordessombreados;
+            transition: 1s ease;
+        }
+    }
+    .pantalones:hover{
+        height: 550px;
+        width: 500px;
+        box-shadow: $bordessombreados;
+        transition: 1s;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:0px) and (max-width: 768px){
+    .mainproductos{
+        .productosropa{
+            margin-bottom: 1px ;
+            width: 300px;
+        }
+    .productosropa:hover{
+            width: 350px;
+            height: 450px;
+            box-shadow: $bordessombreados;
+            cursor: pointer;
+        }
+        .productosbuzos{
+            padding: 50px;
+            display: map-get($flex,flex );
+            flex-wrap: map-get($flex,nowrap );
+            flex-direction: column;
+            justify-content:map-get($flex, space-evenly );
+            align-items: center;
+        }
+        .productospantalones{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            .pantalones{
+                width: 300px
+            }
+        }
+        .pantalones:hover{
+            width: 350px;
+            transition: 1s ease;
+        }
+    }
+}
+
+
+
+

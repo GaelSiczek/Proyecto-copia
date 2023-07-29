@@ -1,0 +1,10 @@
+@mixin display-flex-ropa ($wrap,$direction, $justify-content){
+    padding: 50px;
+    display: flex;
+    flex-wrap: $wrap ;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: center;
+}
+/*lo use en el main*/
+
