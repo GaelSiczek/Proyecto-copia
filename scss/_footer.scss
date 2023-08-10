@@ -15,6 +15,9 @@ footer{
         margin-left: 10px;
         margin-bottom: 20px;
         text-align: center;
+        .whatsapp{
+            margin:15px;
+        }
     }
     
     .redessociales{
@@ -23,6 +26,15 @@ footer{
         margin-left: 10%;
         margin-bottom: 20px;
         text-align: center;
+        .instagram{
+            margin: 15px;
+        }
+        .twitter{
+            margin: 15px;
+        }
+        .facebook{
+            margin: 15px;
+        }
     }
     
     .mediosdepago{
@@ -38,15 +50,17 @@ footer{
         flex-direction: column;
         padding-bottom: 30px;
         .contactofooter{
-            margin-bottom: 50px;
+            margin-bottom: 70px;
         }
     
         .redessociales{
-            margin-bottom: 50px;
+            padding: 40px;
+            margin-top: 70px;
+            margin-bottom: 70px;
         }
     
         .mediosdepago{
-            margin-bottom: 50px;
+            margin-bottom: 70px;
             padding: 10px 10px 10px 10px;
         }
         .col-sm-12{

@@ -72,6 +72,10 @@ h1 {
   text-shadow: 3px 5px 5px rgb(0, 0, 0);
 }
 
+.errorimg {
+  width: 100%;
+}
+
 h3 {
   font-family: "Cinzel", serif;
   color: rgb(255, 255, 255);
@@ -230,6 +234,9 @@ main .ropa:hover {
     width: 0px;
     align-items: center;
   }
+  main .imgsckdiv .parrafo {
+    font-size: 0px;
+  }
   main .productosdestacados {
     padding: 50px;
     display: flex;
@@ -274,12 +281,24 @@ footer .contactofooter {
   margin-bottom: 20px;
   text-align: center;
 }
+footer .contactofooter .whatsapp {
+  margin: 15px;
+}
 footer .redessociales {
   margin-top: 10px;
   margin-right: 8%;
   margin-left: 10%;
   margin-bottom: 20px;
   text-align: center;
+}
+footer .redessociales .instagram {
+  margin: 15px;
+}
+footer .redessociales .twitter {
+  margin: 15px;
+}
+footer .redessociales .facebook {
+  margin: 15px;
 }
 footer .mediosdepago {
   text-align: center;
@@ -295,13 +314,15 @@ footer .mediosdepago {
     padding-bottom: 30px;
   }
   footer .contactofooter {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
   footer .redessociales {
-    margin-bottom: 50px;
+    padding: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
   footer .mediosdepago {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     padding: 10px 10px 10px 10px;
   }
   footer .col-sm-12 {
@@ -420,6 +441,7 @@ footer .mediosdepago {
   }
   .mainproductos .productospantalones .pantalones {
     width: 300px;
+    height: 490px;
   }
   .mainproductos .pantalones:hover {
     width: 350px;
