@@ -3,9 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat&family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Barriecito&family=Caprasimo&family=Montserrat&family=Oswald:wght@200&family=Vina+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Barriecito&family=Montserrat&family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Barriecito&family=Montserrat&family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap");
@@ -67,7 +70,7 @@ main section h3 {
 h1 {
   font-size: 100px;
   color: rgb(255, 255, 255);
-  font-family: "Montserrat" sans-serif;
+  font-family: "Barriecito", cursive;
   text-align: center;
   text-shadow: 3px 5px 5px rgb(0, 0, 0);
 }
@@ -97,8 +100,8 @@ p {
   width: 100%;
   margin-top: 100px;
   margin-bottom: 50px;
-  font-size: 60px;
-  font-family: "ABeeZee", sans-serif;
+  font-size: 70px;
+  font-family: "Vina Sans", cursive;
   color: rgb(119, 125, 131);
   text-align: center;
 }
@@ -399,8 +402,8 @@ footer .mediosdepago {
   margin-bottom: 0%;
 }
 .mainproductos .productospantalones .pantalones {
-  height: 480px;
-  width: 400px;
+  height: 490px;
+  width: 380px;
   text-align: center;
   margin-bottom: 50px;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
@@ -438,7 +441,7 @@ footer .mediosdepago {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .mainproductos .productospantalones .pantalones {
     width: 300px;
